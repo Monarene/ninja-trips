@@ -3,6 +3,8 @@ import 'package:ninja_trips/models/Trip.dart';
 import 'package:ninja_trips/shared/heart.dart';
 import 'package:lipsum/lipsum.dart' as lipsum;
 
+
+
 class Details extends StatelessWidget {
 
   final Trip trip;
