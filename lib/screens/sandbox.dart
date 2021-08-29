@@ -21,10 +21,20 @@ class _SandBoxState extends State<SandBox> {
   Color _animatedColor = Colors.purple;
 
   // double isAnimated booleans
-  bool _isAnimatedMargin = false;
-  bool _isAnimatedOpacity = false;
-  bool _isAnimatedWidth = false;
-  bool _isAnimatedColor = false;
+  bool _isAnimatedMargin;
+  bool _isAnimatedOpacity;
+  bool _isAnimatedWidth;
+  bool _isAnimatedColor;
+
+  @override
+  void initState() {
+    super.initState();
+    _isAnimatedMargin = false;
+    _isAnimatedOpacity = false;
+    _isAnimatedWidth = false;
+    _isAnimatedColor = false;
+
+  }
 
   @override
   Widget build(BuildContext context) {
